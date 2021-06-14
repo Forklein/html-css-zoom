@@ -1,5 +1,88 @@
+/* Reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+/* Utility */
+
+.flex{
+    display: flex;
+}
+
+.bg-grey{
+    background-color: #4a4a4a;
+}
+
+.bg-padding{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-green{
+    color: #4bc800;
+}
+
+/* Start Header */
+
+header{
+    height: 80px;
+}
+
+header nav{
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+header nav .speaker-view{
+    margin-right: 15px;
+}
+
+/* Start Main */
+
+main .gallery{
+    height: 700px;
+    overflow: auto;
+}
+
+main .row{
+    padding: 10px 0;
+    height: 200px;
+}
+
+.col{
+    margin: 0 10px;
+    flex-basis: 20%;
+    border: 1px solid red;
+}
+
+/* Start Footer */
+
+footer .footer-bar{
+    height: 120px;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+footer .footer-bar .col-footer{
+    width: 20%;
+    border: 1px solid red;
+}
+
+footer .footer-bar .col-footer:nth-child(2){
+    width: 40%;
 }
