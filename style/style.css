@@ -65,18 +65,18 @@ header nav .speaker-view{
 main .gallery{
     height: 700px;
     overflow: auto;
-    padding: 10px;
 }
 
 main .row{
     padding: 10px 0;
-    height: 200px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .col{
-    margin: 0 10px;
-    flex-grow: 1;
+    flex-basis: 350px;
+    height: 200px;
+    margin: 0 5px;
     background-image: url('https://picsum.photos/id/1005/300/200');
     background-size: cover;
     position: relative;
