@@ -37,6 +37,14 @@ body{
     color: #4bc800;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.margin-element{
+    margin-top: 5px;
+}
+
 /* Start Header */
 
 header{
@@ -57,6 +65,7 @@ header nav .speaker-view{
 main .gallery{
     height: 700px;
     overflow: auto;
+    padding: 10px;
 }
 
 main .row{
@@ -81,8 +90,25 @@ footer .footer-bar{
 footer .footer-bar .col-footer{
     width: 20%;
     border: 1px solid red;
+    align-items: center;
 }
 
 footer .footer-bar .col-footer:nth-child(2){
     width: 40%;
 }
+
+footer .footer-bar .col-footer .element{
+    padding: 0 10px;
+}
+
+footer .footer-bar .col-footer:last-child{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .footer-bar .col-footer .end-meeting{
+    background-color: #4a4a4a;
+    padding: 45px 30px;
+    font-size: 20px;
+}
+
