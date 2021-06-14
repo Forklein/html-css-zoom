@@ -71,12 +71,14 @@ main .gallery{
 main .row{
     padding: 10px 0;
     height: 200px;
+    flex-wrap: wrap;
 }
 
 .col{
     margin: 0 10px;
-    flex-basis: 20%;
-    border: 1px solid red;
+    flex-grow: 1;
+    background-image: url('https://picsum.photos/id/1005/300/200');
+    background-size: cover;
 }
 
 /* Start Footer */
@@ -88,25 +90,13 @@ footer .footer-bar{
 }
 
 footer .footer-bar .col-footer{
-    width: 20%;
-    border: 1px solid red;
+    justify-content: center;
     align-items: center;
-}
-
-footer .footer-bar .col-footer:nth-child(2){
-    width: 40%;
 }
 
 footer .footer-bar .col-footer .element{
     padding: 0 10px;
 }
-
-
-
-
-
-
-
 
 footer .footer-bar .col-footer:last-child{
     justify-content: flex-end;
